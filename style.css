@@ -8,6 +8,11 @@
     src: url(assets/Belanosima-Regular.ttf);
 }
 
+@font-face {
+    font-family: title-menu;
+    src: url(assets/BeachBarScript-Medium.ttf);
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -115,4 +120,39 @@ footer {
     text-decoration: none;
     margin-top: 30px;
     margin: 10px;
+}
+
+/* Estilos da página menu */
+
+.menu-tittle {
+    margin-top: 300px;
+    font-family: title-menu;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu-list {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-content, .li-menu {
+    color: black;
+    gap: 250px;
+    font-family: title-menu;
+    color: #83593B;
+}
+
+.menu-content-2, .li-content {
+    display: flex;
+    color: black;
+    gap: 250px;
+    font-family: text;
+    font-weight: 600;
 }
