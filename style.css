@@ -1,0 +1,118 @@
+@font-face {
+    font-family: text;
+    src: url(assets/beirut-regular.ttf);
+}
+
+@font-face {
+    font-family: titles;
+    src: url(assets/Belanosima-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.coffe {
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+li, .navegation {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: titles;
+    color: white;
+}
+
+/* Textos */
+h1, .p-intro {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    font-family: titles;
+}
+
+p {
+    font-size: 20px;
+    font-family: text;
+}
+
+.navegation:hover {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #83593B;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+.main-content {
+    padding: 50px;
+    margin-top: 150px;
+}
+
+h2 {
+    font-family: titles;
+    color: #83593B;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-family: titles;
+    text-align: center;
+    font-size: 40px;
+    color: #83593B;
+}
+
+footer {
+    text-align: center;
+}
+.final-text {
+    text-align: center;
+    font-family: text;
+}
+
+.zap, .insta, .face {
+    text-decoration: none;
+    margin-top: 30px;
+    margin: 10px;
+}
